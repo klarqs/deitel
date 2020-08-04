@@ -21,6 +21,7 @@ public class SentenceGenerator {
         // Capitalizing first letter
         char firstLetter = Character.toUpperCase(word.charAt(0));
         word = word.replace(word.charAt(0), firstLetter);
+
         sentence.append(word);
         sentence.append(space);
 
